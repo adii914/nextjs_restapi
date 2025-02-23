@@ -60,6 +60,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
+    'https://nextjs-blog-todos-iota-sable.vercel.app',
 ]
 SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('JWT',),
